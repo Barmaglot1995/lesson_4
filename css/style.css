@@ -1,0 +1,147 @@
+/* &display=swap */
+@import "null.css";
+
+/* Подключение шрифтов Lato с Google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+/* Подключение шрифтов Raleway
+Regular 400
+Medium 500 italic
+Bold 700 с Google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,500&display=swap");
+
+/* Подключение Локальных шрифтов */
+
+@font-face {
+   font-family: "CircularStd";
+   src: url("../fonts/CircularStd-Book.woff2"), format("woff2"), url("../fonts/CircularStd-Book.woff"), format("woff");
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "CircularStd";
+   src: url("../fonts/CircularStd-Bold.woff2"), format("woff2"), url("../fonts/CircularStd-Bold.woff"), format("woff");
+   font-style: normal;
+   font-weight: 700;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "CircularStd";
+   src: url("../fonts/CircularStd-Black.woff2"), format("woff2"), url("../fonts/CircularStd-Black.woff"), format("woff");
+   font-style: normal;
+   font-weight: 900;
+   font-display: swap;
+}
+@font-face {
+   font-family: "CircularStd";
+   src: url("../fonts/CircularStd-Medium.woff2"), format("woff2"), url("../fonts/CircularStd-Medium.woff"),
+      format("woff");
+   font-style: normal;
+   font-weight: 500;
+   font-display: swap;
+}
+.title {
+   font-family: "Raleway", sans-serif;
+   font-weight: 900;
+   font-style: normal;
+   font-size: 50px;
+   text-align: center;
+}
+
+.text {
+   font-family: "Lato", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 20px;
+   text-align: center;
+   color: gray;
+}
+
+.dialog {
+   font-family: "CircularStd", sans-serif;
+   color: green;
+   font-weight: 700;
+   font-style: oblique;
+   font-size: 20px;
+}
+
+.song {
+   font-family: "Raleway", sans-serif;
+   font-weight: 500;
+   font-style: italic;
+   font-size: 30px;
+   text-align: left;
+   text-decoration: line-through;
+   text-shadow: 20px -15px 10px green;
+}
+
+.dialog2 {
+   color: blue;
+   font-family: "Raleway", sans-serif;
+   font-weight: 400;
+   font-style: italic;
+   font-size: 30px;
+   text-align: left;
+   text-decoration: overline;
+   text-shadow: 5px 5px 10px red;
+   text-transform: uppercase;
+}
+
+.dialog3 {
+   color: black;
+   font-family: "Lato", sans-serif;
+   font-weight: 900;
+   font-style: normal;
+   font-size: 20px;
+   text-align: center;
+   text-indent: 50%;
+   text-decoration: underline dotted blue;
+   line-height: 3;
+   text-transform: lowercase;
+   letter-spacing: 15px;
+}
+
+.dialog4 {
+   color: blue;
+   font-family: "Lato", sans-serif;
+   font-weight: 400;
+   font-style: oblique;
+   font-size: 40px;
+   text-align: left;
+   text-decoration: underline green;
+   word-spacing: 15px;
+   text-transform: lowercase;
+   letter-spacing: 15px;
+   text-shadow: 5px 5px 5px green;
+}
+#go {
+   color: pink;
+   font-family: "Raleway", sans-serif;
+   font-weight: 500;
+   font-style: italic;
+   font-size: 50px;
+   text-align: right;
+   text-decoration: underline rgb(117, 0, 128);
+   word-spacing: 15px;
+   text-transform: lowercase;
+   letter-spacing: 15px;
+   text-shadow: 5px 5px 5px rgb(81, 0, 128);
+}
+
+.song4 {
+   color: rgb(61, 12, 20);
+   font-family: "Raleway", sans-serif;
+   font-weight: 500;
+   font-style: italic;
+   font-size: 20px;
+   text-align: center;
+   text-decoration: underline rgb(117, 0, 128);
+   text-indent: 15%;
+   text-transform: lowercase;
+   letter-spacing: 15px;
+   text-shadow: 5px 5px 5px rgb(81, 0, 128);
+   line-height: 50px;
+   word-spacing: 50px;
+}
